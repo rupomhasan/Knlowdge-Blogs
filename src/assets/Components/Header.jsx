@@ -1,11 +1,15 @@
 // import React from 'react';
-
+import Profile from "../../../public/images/profile.png";
+import "../../App.css";
 const Header = () => {
-    return (
-        <>
-            <h1 className="text-4xl font-bold">Knowledge cafe</h1>
-        </>
-    );
+   return (
+      <>
+         <nav className="flex justify-between">
+            <h1 className="header">Knowledge cafe</h1>
+            <img src={Profile} alt="" />
+         </nav>
+      </>
+   );
 };
 
 export default Header;
