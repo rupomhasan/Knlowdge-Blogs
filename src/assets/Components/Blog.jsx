@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
-const Blog = ({ blog }) => {
-   console.log(blog);
+const Blog = ({ blog,handClickBookmark }) => {
    const {
       cover_img,
       title,
@@ -30,7 +29,7 @@ const Blog = ({ blog }) => {
                   </div>
                   <div className="flex gap-2">
                      <p>{reading_time}</p>
-                     <button className="btn btn-xs btn-secondary">
+                     <button onClick={()=>handClickBookmark(blog)} className="btn btn-xs btn-secondary">
                         Bookmark
                      </button>
                   </div>
@@ -52,5 +51,6 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
    blog: PropTypes.object.isRequired,
+   handClickBookmark:PropTypes.func,
 };
 export default Blog;
