@@ -1,0 +1,61 @@
+[
+   {
+      "id": "1",
+      "cover_img": "https://i.ibb.co/Tw9B34F/Boolworm.jpg",
+      "title": "The Adventure Begins",
+      "name": "Bookworm",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/h881d0W/aurthor.jpg",
+      "posted_date": "2023-10-09",
+      "reading_time": "45 mins",
+      "hashtags": ["fiction", "adventure", "bookworm"]
+   },
+
+   {
+      "id": "2",
+      "cover_img": "https://i.ibb.co/zX9xFYZ/Enigma.jpg",
+      "title": "Mystery Unraveled",
+      "name": "Enigma",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/VQ0vqPY/author2.png",
+      "posted_date": "2023-10-08",
+      "reading_time": "30 mins",
+      "hashtags": ["mystery", "suspense", "enigma"]
+   },
+
+   {
+      "id": "3",
+      "cover_img": "https://i.ibb.co/NKd1K20/Gosmos.jpg",
+      "title": "Sci-Fi Odyssey",
+      "name": "Cosmos",
+      "author": "Alan Johnson",
+      "author_img": "https://i.ibb.co/fH8MxC2/author3.png",
+      "posted_date": "2023-10-07",
+      "reading_time": "60 mins",
+      "hashtags": ["sciencefiction", "space", "cosmos"]
+   },
+
+   {
+      "id": "4",
+      "cover_img": "https://i.ibb.co/TmrWmpn/Love.jpg",
+      "title": "Romantic Escapade",
+      "name": "Love Story",
+      "author": "Emily Davis",
+      "author_img": "https://i.ibb.co/cF44yvx/author4.jpg",
+      "posted_date": "2023-10-06",
+      "reading_time": "50 mins",
+      "hashtags": ["romance", "love", "heartwarming"]
+   },
+
+   {
+      "id": "5",
+      "cover_img": "https://i.ibb.co/C6kTKR7/Time-travel.jpg",
+      "title": "Historical Chronicles",
+      "name": "Time Traveler",
+      "author": "William Turner",
+      "author_img": "https://i.ibb.co/VqtXVmb/author5.jpg",
+      "posted_date": "2023-10-05",
+      "reading_time": "75 mins",
+      "hashtags": ["history", "timetravel", "historical"]
+   }
+]
