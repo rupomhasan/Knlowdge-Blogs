@@ -7,7 +7,16 @@ import Header from "./assets/Components/Header";
 function App() {
    
    const [bookmarks,setBookmark] = useState([])
+   const [readingTime, setReadingTime] = useState(0)
 
+
+   const handleMarkAsRead = (id,time) => {
+
+      const newReadingTime = readingTime + parseInt(time);
+      setReadingTime(newReadingTime)
+      const remaining = bookmarks.filter(bookmark => bookmark.id !== id)
+      setBookmark(remaining)
+   }
    const handClickBookmark = (blog) => {
       console.log(blog)
       const newBookmark = [...bookmarks,blog]
@@ -18,8 +27,10 @@ function App() {
       <>
          <Header></Header>
          <main className="flex gap-10">
-            <Blogs handClickBookmark={handClickBookmark}></Blogs>
-            <Bookmarks bookmarks={bookmarks}></Bookmarks>
+            <Blogs handClickBookmark={handClickBookmark}
+            handleMarkAsRead = {handleMarkAsRead}
+            ></Blogs>
+            <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
          </main>
       </>
    );

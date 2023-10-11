@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 
-const Blog = ({ blog,handClickBookmark }) => {
+const Blog = ({ blog,handClickBookmark,handleMarkAsRead }) => {
    const {
+      id,
       cover_img,
       title,
       author,
@@ -28,7 +29,7 @@ const Blog = ({ blog,handClickBookmark }) => {
                      </div>
                   </div>
                   <div className="flex gap-2">
-                     <p>{reading_time}</p>
+                     <p>{reading_time} mins</p>
                      <button onClick={()=>handClickBookmark(blog)} className="btn btn-xs btn-secondary">
                         Bookmark
                      </button>
@@ -43,6 +44,7 @@ const Blog = ({ blog,handClickBookmark }) => {
                      </span>
                   ))}
                </div>
+               <h3 onClick={()=> handleMarkAsRead (id, reading_time)}>Mark As Read</h3>
             </div>
          </div>
       </div>
@@ -52,5 +54,6 @@ const Blog = ({ blog,handClickBookmark }) => {
 Blog.propTypes = {
    blog: PropTypes.object.isRequired,
    handClickBookmark:PropTypes.func,
+   handleMarkAsRead : PropTypes.func
 };
 export default Blog;

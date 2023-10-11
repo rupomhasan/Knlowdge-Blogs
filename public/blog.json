@@ -7,7 +7,7 @@
       "author": "John Doe",
       "author_img": "https://i.ibb.co/h881d0W/aurthor.jpg",
       "posted_date": "2023-10-09",
-      "reading_time": "45 mins",
+      "reading_time": "45 ",
       "hashtags": ["fiction", "adventure", "bookworm"]
    },
 
@@ -19,7 +19,7 @@
       "author": "Jane Smith",
       "author_img": "https://i.ibb.co/VQ0vqPY/author2.png",
       "posted_date": "2023-10-08",
-      "reading_time": "30 mins",
+      "reading_time": "30 ",
       "hashtags": ["mystery", "suspense", "enigma"]
    },
 
@@ -31,7 +31,7 @@
       "author": "Alan Johnson",
       "author_img": "https://i.ibb.co/fH8MxC2/author3.png",
       "posted_date": "2023-10-07",
-      "reading_time": "60 mins",
+      "reading_time": "60 ",
       "hashtags": ["sciencefiction", "space", "cosmos"]
    },
 
@@ -43,7 +43,7 @@
       "author": "Emily Davis",
       "author_img": "https://i.ibb.co/cF44yvx/author4.jpg",
       "posted_date": "2023-10-06",
-      "reading_time": "50 mins",
+      "reading_time": "50 ",
       "hashtags": ["romance", "love", "heartwarming"]
    },
 
@@ -55,7 +55,7 @@
       "author": "William Turner",
       "author_img": "https://i.ibb.co/VqtXVmb/author5.jpg",
       "posted_date": "2023-10-05",
-      "reading_time": "75 mins",
+      "reading_time": "75 ",
       "hashtags": ["history", "timetravel", "historical"]
    }
 ]
